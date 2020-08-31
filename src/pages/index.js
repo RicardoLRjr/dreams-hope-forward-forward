@@ -17,17 +17,17 @@ class IndexPage extends React.Component {
         />
         <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
         <h1>
-          Hey people{" "}
+          Welcome! {" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
         </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
+        <p>This is the beginning of my new blog, Dreams, Hope, Forward, Forward*</p>
         <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
+         The blog is still under construction, but once I've finished it this will be the home page. Hope you'll stick around!
         </p>
-        <p>Now go build something great!</p>
+        <p>*bet you can't guess what this is a reference too <span role="img" aria-label="wink emoji">
+          😉</span></p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
